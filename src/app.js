@@ -28,6 +28,7 @@ req.onload = function(e) {
       main.icon(icon);
       main.subtitle(windString);
       main.body(current.wind_mph + 'mph with ' + current.wind_gust_mph + 'mph gusts.');
+      main.icon('images/really_good.png');
     } else { console.log("Error"); }
   }
 };
