@@ -12,7 +12,7 @@ var main = new UI.Card({
 });
 main.show();
 
-var wu_key = '';
+var wu_key = '96c7089c7624a1bb';
 
 var req = new XMLHttpRequest();
 req.open('GET', 'http://api.wunderground.com/api/' + wu_key + '/conditions/q/pws:KCTGREEN14.json', true);
